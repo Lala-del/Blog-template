@@ -1,0 +1,185 @@
+
+@media only screen and  (max-width:1024px){
+	label {display: block;
+		cursor: pointer;}
+	.menu {text-align: center;
+		width: 100%;}
+	.menu ul li  {
+		display: block;
+		border-bottom:1px solid #EAEAEB;
+		margin: 0;
+		padding: 5px;
+		}
+
+	#toggle:checked + .menu{
+		display: block;
+	}
+
+	.menu {
+		display: none;
+	}
+     
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+ .magic-line {
+  display: none;
+}
+   .menu a:hover {
+	color: grey;
+	padding-bottom: 9px;
+	border-bottom: 2px solid #241490;
+}
+#showcase .header{
+	width:188px;
+	margin-left:15px;
+}
+
+#part .data, .user {
+	margin-left: 11px; 
+}
+#main .pic {
+	height: 192px;
+}
+
+.second {
+	height: 140px;
+}
+
+.social-media .line {
+	width: 116px;
+}
+
+.feature-posts .line{
+	width: 158px;
+}
+
+.categories .line {
+	width: 100px;
+}
+#slider .showcase-header a {
+	bottom: 46px;
+	font-size: 32px;
+}
+
+#last_main .pic{
+	height: 187px;
+}
+#instafeed a img {
+	background-size: cover;
+	width: 159px !important;
+}
+
+.footer__social-title {
+	margin: 20px 30px;
+
+}
+
+.social {
+margin-top: 20px;
+}
+
+
+#last_part .data, .comments {
+	margin-left: 95px;
+}
+#last_main .end .user {
+	margin-left: 23px;
+}
+ #main .flex-container {
+	 display: none;
+ }
+
+ .end .user{
+	 margin-left: 36px;
+ }
+
+ .category-image{
+	 width: 200px;
+ }
+}
+
+
+@media only screen and (max-width:1024px) and (min-width: 768px){
+			.end{
+				display: none;
+			}
+
+			
+}
+/*@media only screen and (max-width:1366px) and (min-width: 1024px){
+    #showcase .header{
+	 	width:230px;
+	 	margin-left:50px;
+	 }
+}*/
+@media only screen and (max-width:568px) and (min-width: 320px){
+	#showcase .header{
+	 	width:218px;
+	 	margin-left:32px;
+	 }
+	 .carousel-image{
+	 	margin-top: 40px;
+	 }
+	 .feature-posts .line{
+		width: 165px;
+	}
+}
+	 
+@media only screen and (max-width:667px) and (min-width: 375px){
+	#showcase .header{
+	 	width:261px;
+	 	margin-left:23px;
+	 }
+	 #instafeed a img {
+    background-size: cover;
+    width: 187px ;
+	 }
+	 
+	 #last_part .data, .comments {
+    margin-left: 112px;
+	 }
+	 
+	 #last_main .end .user {
+    margin-left: 52px;
+	}
+
+	.end .user {
+    margin-left: 58px;
+}
+#showcase .header {
+	margin-left: 57px;
+}
+
+#part .data, .user {
+	margin-left: 34px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:736px) and (min-width: 414px){
+    #showcase .header{
+	 	width:261px;
+	 	margin-left:50px;
+	 }
+	}
+
+@media only screen and (max-width:736px) and (min-width: 414px){
+     #showcase .header{
+	 	width:261px;
+	 	margin-left:30px;
+	 }
+	}
+
+
+
+
+
